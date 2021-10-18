@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Github App</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="name">Nama</string>
+    <string name="repository">Penyimpanan</string>
+    <string name="company">Company</string>
+    <string name="location">Location</string>
+    <string name="followers">Pengikut</string>
+    <string name="following">Mengikuti</string>
+    <string name="avatar">Avatar</string>
+    <string name="language_settings">Pengaturan bahasa</string>
+    <string name="reminder_settings">Pengaturan pengingat</string>
+    <string name="search">Cari...</string>
+    <string name="toolbar">Profil Pengguna</string>
+    <string name="github">GitHub</string>
+    <string name="dummy_value">0</string>
+    <string name="add_fav">Ditambahkan ke favorit</string>
+    <string name="remove_fav">Dihilangkan dari favorit</string>
+    <string name="favorite">User Favorit</string>
+    <string name="alarm">Pengaturan Alarm</string>
+    <string name="set_reminder">Atur pengingat pada jam 9 pagi</string>
+    <string name="On">Hidup</string>
+    <string name="Off">Mati</string>
+    <string name="text_notif">Ayo, buka kembali aplikasi Github App!</string>
+    <string name="set_up_alarm">Alarm telah dibuat!</string>
+    <string name="cancel_alarm">Alarm telah dibatalkan!</string>
+    <string name="double_back">Tekan sekali lagi untuk keluar</string>
+    <string name="search_not_found">Maaf, username yang anda cari tidak ada :\'(</string>
+    <string name="no_favorite">Belum ada ditambahkan</string>
+    <string name="about">Tentang</string>
+    <string name="name_about">Maghel Heans Gultom</string>
+    <string name="email">a1141453@bangkit.academy</string>
+    <string name="desc_about">Aplikasi ini dibangun untuk menyelesaikan tugas Belajar Fundamental Aplikasi Android yang dibuat oleh Dicoding. Aplikasi ini berguna untuk mencari pengguna GitHub yang berada di seluruh dunia menggunakan API yang disediakan oleh GitHub.</string>
+</resources>

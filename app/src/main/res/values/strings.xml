@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Github App</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="repository">Repository</string>
+    <string name="company">Company</string>
+    <string name="location">Location</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="avatar">Avatar</string>
+    <string name="language_settings">Language settings</string>
+    <string name="reminder_settings">Reminder settings</string>
+    <string name="search">Search...</string>
+    <string name="toolbar">User Profile</string>
+    <string name="github">GitHub</string>
+    <string name="dummy_value">0</string>
+    <string name="add_fav">Added to favorite</string>
+    <string name="remove_fav">Removed from favorite</string>
+    <string name="favorite">Favorite User</string>
+    <string name="alarm">Alarm Settings</string>
+    <string name="set_reminder">Set reminder at 9 AM</string>
+    <string name="On">ON</string>
+    <string name="Off">Off</string>
+    <string name="text_notif">Get back to Github App!</string>
+    <string name="set_up_alarm">Repeating alarm set up!</string>
+    <string name="cancel_alarm">Repeating alarm has been canceled!</string>
+    <string name="double_back">Press again to exit</string>
+    <string name="search_not_found">Sorry, no username exist :\'(</string>
+    <string name="no_favorite">Nothing added yet</string>
+    <string name="about">About</string>
+    <string name="name_about">Maghel Heans Gultom</string>
+    <string name="email">a1141453@bangkit.academy</string>
+    <string name="desc_about">This app was built for Learn Android Application Fundamental assignment that provided by Dicoding. This app used to search a GitHub user across the wolrd using API that provided by GitHub.</string>
+</resources>

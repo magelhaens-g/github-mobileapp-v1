@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Consumer App</string>
+    <string name="main_title">Consumer GithubApp</string>
+    <string name="username">Username</string>
+</resources>

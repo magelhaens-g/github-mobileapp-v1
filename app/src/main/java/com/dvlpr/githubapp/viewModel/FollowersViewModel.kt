@@ -1,0 +1,31 @@
+package com.dvlpr.githubapp.viewModel
+
+import android.util.Log
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import com.dvlpr.githubapp.retrofit.Retrofit
+import com.dvlpr.githubapp.model.UserModel
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+
+class FollowersViewModel : ViewModel() {
+    val followers = MutableLiveData<ArrayList<UserModel>>()
+
+    fun setListFollowers(username: String) {
+        Retrofit.apiRequest.getUserFollowers(username).enqueue(object : Callback<ArrayList<UserModel>> {
+            override fun onResponse(call: Call<ArrayList<UserModel>>, response: Response<ArrayList<UserModel>>) {
+                if (response.isSuccessful) {
+                    followers.postValue(response.body())
+                }
+            }
+
+            override fun onFailure(call: Call<ArrayList<UserModel>>, t: Throwable) {
+                Log.d("Failure", t.message.toString())
+            }
+        })
+    }
+
+    fun getListFollowers(): LiveData<ArrayList<UserModel>> = followers
+}
